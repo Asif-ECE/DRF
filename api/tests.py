@@ -53,4 +53,4 @@ class TestClass(APITestCase):
             "on_sale": "We have 0 items on sale."
         }
 
-        self.assertEqual(response.data, {})
+        self.assertEqual(response.data, expected_data)
