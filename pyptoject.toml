@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "drf-test-project"
+version = "0.1.0"
+description = "This is a test project"
+authors = ["Asif <md.asif.mostafa@outlook.com>"]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonary.api"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2"
+djangorestframework = "^3.14"
+djangorestframework-simplejwt = "5.3.1"
+django-cors-headers = "4.3.1"
